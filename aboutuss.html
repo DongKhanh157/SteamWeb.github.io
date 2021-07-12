@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<style>
+  
+
+  .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #1E90FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #4169E1;
+}
+
+</style>
+
+<!-- Testimonials-->
+
+
+
+
+</head>
+
+
+<body>
+  
+  <!-- My Navbar code starts here -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="steam.html">
+  <img src="Code Image/steam.png" style="width:40px;" >
+</a>
+  <!-- Links -->
+  <!-- Im giving margin styling for my Links -->
+
+  <ul class="navbar-nav ml-auto" style="padding-left: 40px; padding-right: 40px;">     <!-- ml- auto mean - margin left automatic -->
+                                      <!-- mr- auto mean - margin right automatic -->
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">About us</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+
+    <!-- my input form for ''sreach'' -->
+     <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+
+  </ul>
+</nav>
+
+
+
+<!-- my about us code start here -->
+
+<br><br>   <!-- Line break -->
+
+  <h1 style="text-align:center"><b> About us </b></h1>
+   <br><br>   <!-- Line break -->
+
+ <div class="container">     <!-- Line break -->
+
+    <div class="row">        <!-- my frist row -->
+
+      <div class="col">      <!-- my frist column -->
+      <img src="Code Image/lele.jpg" width="500" height="550">
+              </div>
+      
+
+      <div class="col">      <!-- my second column -->
+        
+        <h3>Steam</h3>
+        <p>Steam is an online distribution platform, digital rights management, multiplayer video game, and internet-based social communication service developed by Valve Corporation. Steam provides users with the ability to install and automatically update games on multiple computers, and community features such as friend and group lists, cloud storage, and game functionality. chat and converse while playing games. The software makes available a free application programming interface (API) called Steamworks, with which developers can use it to integrate many of Steam's functions into their products, including communication social and matchmaking, in-game achievements, purchases, and support for user-generated content through the Steam Workshop.
+        <br><br>
+        <h3>Access Games Instantly</h3>
+        <p> With nearly 30,000 games from AAA to indie and everything in-between. Enjoy exclusive deals, automatic game updates, and other great perks. Steam is the ultimate destination for playing, discussing, and creating games.</p>
+        
+        <button type="button" class="btn btn-primary">Read more</button>
+
+        
+      </div>
+
+      
+      
+   
+
+
+
+
+ </div>
+<br><br>
+<br><br><br>
+
+
+<!-- My team -->
+<h1 style="text-align:center"><b>Meet the Team</b></h1>
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Code Image/a1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <br>
+        <h2>Gabe Newell</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>As the creator of one of the largest game stores in the world - Steam</p>
+        <p>gabenewell@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Code Image/a2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <br>
+        <h2>Tim Sweeney </h2>
+        <p class="title">Developer</p>
+        <p>CEO of Fornite - He is the one who adds capital to the development of Steam</p>
+        <p>SweeneyFornite@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Code Image/a3.png" alt="John" style="width:100%">
+      <div class="container">
+        <br>
+        <h2>Mark Rein</h2>
+        <p class="title">Investor</p>
+        <p>Vice President and Co-Founder of Epic Games. Carolina Hurricanes fan.</p>
+        <p>Rein1964@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- testimonials -->
+<style>
+  .cukhanh {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 390px;
+}
+
+/* Clear floats after containers */
+.cukhanh::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.cukhanh img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.cukhanh span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .cukhanh {
+    text-align: center;
+  }
+
+  .cukhanh img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+</style>
+
+<div class="cukhanh">
+  <img src="Code Image/14.jpg" alt="Avatar" style="width:90px">
+  <p><span>Nghia Le</span>Graphic Design </p>
+  <p>Thanks Gabe Newell for giving us good community</p>
+</div>
+
+<div class="cukhanh">
+  <img src="Code Image/15.jpg" alt="Avatar" style="width:90px">
+  <p><span >Kotori</span> Desginer & Creator</p>
+  <p>Thank you Steam for entertaining me every day</p>
+</div>
+
+
+
+
+<!-- footer-->
+<br>
+<style>
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: Black;
+  color: white;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+</style>
+
+<div class="footer">
+  <p>About Valve | Steamworks | Steam Distribution</p><br>
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<!-- The social media icon bar -->
+<style>
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+/* Style the icon bar links */
+.icon-bar a {
+  
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  width:15px;
+  border-radius: 20px;
+
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+</style>
+
+
+  <div class="icon-bar">
+  <a href="https://www.facebook.com/Steam/" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/Steam" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.google.com.vn/?hl=vi" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+
+
+
+
+</html>
